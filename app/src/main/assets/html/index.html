@@ -1,46 +1,282 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <meta name="theme-color" content="#6200EE">
-    <title>WebView App</title>
-    <link rel="stylesheet" href="file:///android_asset/css/app.css">
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>عالم الألعاب</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-    <div class="app-container">
-        <div class="header">
-            <h1>🚀 WebView App Template</h1>
-            <p>Your Android WebView app is ready!</p>
+
+
+  <!-- =========================
+       رأس الموقع
+  ========================== -->
+
+  <header>
+
+    <h1>🎮 عالم الألعاب</h1>
+
+    <p>
+      مودات وخرائط وأخبار الألعاب
+    </p>
+
+  </header>
+
+
+
+  <main>
+
+
+    <!-- =========================
+         قسم الترحيب
+    ========================== -->
+
+    <section class="hero">
+
+      <h2>
+        أهلاً بك 👋
+      </h2>
+
+      <p>
+        مرحباً بك في موقع عالم الألعاب!
+        هنا ستجد أفضل المودات والخرائط
+        والأخبار.
+      </p>
+
+      <button onclick="showMessage()">
+        ابدأ التصفح 🎮
+      </button>
+
+    </section>
+
+
+
+    <!-- =========================
+         قسم Minecraft
+    ========================== -->
+
+    <section class="games">
+
+      <h2>
+        ⛏️ Minecraft
+      </h2>
+
+
+      <!-- =========================
+           مود SILHOUETTE
+      ========================== -->
+
+      <article class="mod-card">
+
+
+        <!-- صورة المود -->
+
+        <img
+          src="https://i.postimg.cc/9fQdvmXB/silhouette-5x4-1.jpg"
+          alt="SILHOUETTE Horror Mod"
+          class="mod-image"
+        >
+
+
+        <div class="mod-content">
+
+
+          <!-- نوع المود -->
+
+          <span class="horror">
+            👻 مود رعب
+          </span>
+
+
+          <!-- اسم المود -->
+
+          <h3>
+            🎩 SILHOUETTE
+          </h3>
+
+
+          <!-- وصف المود -->
+
+          <p>
+            مود رعب لماينكرافت Bedrock
+            يضيف أجواء وكائنات مرعبة
+            إلى عالمك.
+          </p>
+
+
+          <!-- الإصدار -->
+
+          <div class="info">
+
+            <span>
+              📱 Minecraft Bedrock
+            </span>
+
+            <span>
+              🟢 1.20 - 1.21
+            </span>
+
+          </div>
+<a
+  href="https://www.mediafire.com/file/z4rzr7z8kdsdrss/%25F0%259F%258E%25A9SILHOUETTE_%255B1.21-1.20%255D_CREATORS-SWEAKY_SNEAKER_MADE-WATCHER_MC.mcaddon.zip/file"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="download-btn"
+>
+  📥 تحميل المود
+</a>
+
+
         </div>
-        
-        <div class="content">
-            <h2>Welcome to Your App</h2>
-            <p>This is a mobile-optimized web app running in Android WebView.</p>
-            
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>Mobile Optimized</h3>
-                    <p>Responsive design that works on all devices.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Fast Loading</h3>
-                    <p>Local assets load instantly.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Auto Updates</h3>
-                    <p>GitHub Actions builds APK automatically.</p>
-                </div>
-            </div>
-            
-            <button class="btn" onclick="showWelcome()">Get Started</button>
+
+      </article>
+
+
+
+      <!-- =========================
+           مكان مود جديد
+      ========================== -->
+
+      <article class="mod-card">
+
+        <div class="no-image">
+          🎮
         </div>
+
+        <div class="mod-content">
+
+          <h3>
+            مود جديد قريبًا
+          </h3>
+
+          <p>
+            سيتم إضافة المزيد من مودات
+            Minecraft هنا.
+          </p>
+
+        </div>
+
+      </article>
+
+
+    </section>
+
+
+
+    <!-- =========================
+         <article class="news
+    ========================== -->
+
+    <section class="games">
+
+      <h2>
+        <!-- =========================
+                   Free Fire
+          ========================= -->
+
+<section class="games">
+
+  <h2>🔥 أخبار Free Fire</h2>
+
+  <!-- الخبر الأول -->
+  <article class="news-card">
+
+    <img
+      src="ضع-رابط-صورة-الخبر-هنا"
+      alt="خبر Free Fire"
+      class="news-image"
+    >
+
+    <div class="news-content">
+
+      <span class="news-date">
+        📅 9 أغسطس 2026
+      </span>
+
+      <h3>
+        🔥 خبر جديد في Free Fire
+      </h3>
+
+      <p>
+     شركة جارينا تقدم اعلان عن انمي فري فاير الذي 
+        سوفة يكشف عن معضم الاسرار الموجودة داخل اللعبة
+      
+      </p>
+
+      <a
+        href="https://youtu.be/PCQ18Otvpnw?si=qC8Prqjo1FbMUPVm"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="news-btn"
+      >
+        📰 مشاهدة الاعلان
+      </a>
+
     </div>
 
-    <script>
-        function showWelcome() {
-            alert('Welcome! Add your HTML/CSS/JS files to build your app.');
-        }
-    </script>
+  </article>
+
+</section>
+      </h2>
+
+
+      <article class="game">
+
+        <h3>
+          🔥 أخبار Free Fire
+        </h3>
+
+        <p>
+          سيتم إضافة أخبار وتحديثات
+          Free Fire هنا.
+        </p>
+
+        <button onclick="gameInfo('Free Fire')">
+          المزيد
+        </button>
+
+      </article>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =========================
+       أسفل الموقع
+  ========================== -->
+
+  <footer>
+
+    <p>
+      © 2026 عالم الألعاب
+    </p>
+
+    <p>
+      تم إنشاء الموقع من الهاتف 📱
+    </p>
+
+  </footer>
+
+
+
+  <!-- JavaScript -->
+
+  <script src="script.js"></script>
+
+
 </body>
+
 </html>
