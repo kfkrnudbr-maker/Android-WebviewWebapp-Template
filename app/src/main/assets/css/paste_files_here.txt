@@ -1,1 +1,358 @@
-Add your CSS files here
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #080d18;
+
+  color: white;
+
+  direction: rtl;
+}
+
+
+/* =========================
+   رأس الموقع
+========================= */
+
+header {
+
+  text-align: center;
+
+  padding: 30px 15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #111827,
+      #1e3a8a
+    );
+
+  border-bottom: 3px solid #f59e0b;
+}
+
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 32px;
+}
+
+
+header p {
+
+  color: #cbd5e1;
+
+  font-size: 16px;
+}
+
+
+/* =========================
+   المحتوى
+========================= */
+
+main {
+
+  width: 100%;
+
+  max-width: 900px;
+
+  margin: auto;
+
+  padding: 20px;
+}
+
+
+/* =========================
+   الترحيب
+========================= */
+
+.hero {
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #7c3aed
+    );
+
+  box-shadow:
+    0 10px 30px
+    rgba(0, 0, 0, 0.4);
+}
+
+
+.hero h2 {
+
+  font-size: 30px;
+
+  margin-top: 0;
+}
+
+
+.hero p {
+
+  line-height: 1.8;
+
+  color: #e5e7eb;
+}
+
+
+/* =========================
+   الأزرار
+========================= */
+
+button {
+
+  border: none;
+
+  padding: 12px 24px;
+
+  border-radius: 12px;
+
+  background: #f59e0b;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+
+button:hover {
+
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   الأقسام
+========================= */
+
+.games {
+
+  margin-top: 35px;
+}
+
+
+.games > h2 {
+
+  text-align: center;
+
+  font-size: 28px;
+
+  margin-bottom: 20px;
+}
+
+
+/* =========================
+   بطاقة المود
+========================= */
+
+.mod-card {
+
+  margin-bottom: 25px;
+
+  overflow: hidden;
+
+  background: #151d2e;
+
+  border-radius: 20px;
+
+  border: 1px solid #334155;
+
+  box-shadow:
+    0 10px 30px
+    rgba(0, 0, 0, 0.4);
+
+  transition: 0.3s;
+}
+
+
+.mod-card:hover {
+
+  transform: translateY(-5px);
+
+  border-color: #f59e0b;
+}
+
+
+/* =========================
+   صورة المود
+========================= */
+
+.mod-image {
+
+  width: 100%;
+
+  aspect-ratio: 5 / 4;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+
+/* =========================
+   معلومات المود
+========================= */
+
+.mod-content {
+
+  padding: 22px;
+}
+
+
+.mod-content h3 {
+
+  margin-top: 12px;
+
+  font-size: 26px;
+}
+
+
+.mod-content p {
+
+  color: #cbd5e1;
+
+  line-height: 1.8;
+
+  font-size: 16px;
+}
+
+
+/* =========================
+   مود رعب
+========================= */
+
+.horror {
+
+  display: inline-block;
+
+  padding: 7px 12px;
+
+  border-radius: 20px;
+
+  background: #7f1d1d;
+
+  color: #fecaca;
+
+  font-size: 13px;
+
+  font-weight: bold;
+}
+
+
+/* =========================
+   معلومات الإصدار
+========================= */
+
+.info {
+
+  display: flex;
+
+  gap: 10px;
+
+  flex-wrap: wrap;
+
+  margin: 18px 0;
+}
+
+
+.info span {
+
+  padding: 8px 12px;
+
+  border-radius: 10px;
+
+  background: #263247;
+
+  color: #cbd5e1;
+
+  font-size: 14px;
+}
+
+
+//* =========================
+   أخبار Free Fire
+========================= */
+
+.news-card {
+  overflow: hidden;
+  margin-bottom: 25px;
+  background: #151d2e;
+  border: 1px solid #334155;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  border-color: #f59e0b;
+}
+
+.news-image {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-date {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #263247;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+.news-content h3 {
+  margin: 10px 0;
+  font-size: 23px;
+}
+
+.news-content p {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.news-btn {
+  display: block;
+  margin-top: 18px;
+  padding: 13px;
+  border-radius: 12px;
+  background: #f59e0b;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.news-btn:hover {
+  transform: scale(1.02);
+}Add your CSS files here
